@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, ul, li {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+body .container {
+  width: 90%;
+  margin-left: 5%;
+}
+body .container .card-header h1 {
+  padding-top: 1rem;
+  text-align: center;
+}
+body .container .card-header ul {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+body .container .card-header ul li {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 28px;
+  padding: 1.4rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+body .container .card-header ul li a {
+  color: black;
+}
+body .container .card-header ul li:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+body .container .card-header ul li:hover a {
+  color: #fff;
+}
+body .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 700px;
+  padding: 1rem;
+  gap: 20px;
+}
+body .container .cards .card {
+  width: 32%;
+  height: 440px;
+}
+body .container .cards .card .card-img {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+body .container .cards .card .card-img i {
+  color: #333;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+}
+body .container .cards .card .card-img i:hover {
+  color: red;
+  cursor: pointer;
+}
+body .container .cards .card .card-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+}
+body .container .cards .card .card-img img:hover {
+  transform: scale(1.3);
+}
+body .container .cards .card .card-data {
+  width: 100%;
+  height: 50%;
+  background: #f5f3f3;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+}
+body .container .cards .card .card-data .profil-photo {
+  position: absolute;
+  right: 20px;
+  width: 40px;
+  top: -20px;
+  height: 40px;
+  border-radius: 50%;
+}
+body .container .cards .card .card-data .profil-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+body .container .cards .card .card-data .top {
+  height: 50%;
+  padding-top: 0.5rem;
+}
+body .container .cards .card .card-data .top ul {
+  margin-left: 1.2rem;
+}
+body .container .cards .card .card-data .top ul .star {
+  color: gold;
+}
+body .container .cards .card .card-data .top ul .star i {
+  padding: 0.3rem;
+}
+body .container .cards .card .card-data .top ul .head {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+body .container .cards .card .card-data .top ul .end {
+  opacity: 0.7;
+}
+body .container .cards .card .card-data .top::before {
+  content: "";
+  display: block;
+  width: 374px;
+  height: 1px;
+  left: 27px;
+  top: 106px;
+  position: absolute;
+  background-color: #837f7f;
+}
+body .container .cards .card .card-data .bottom {
+  padding: 1rem;
+}
+body .container .cards .card .card-data .bottom .resalt {
+  text-align: center;
+  display: inline-block;
+  width: 65px;
+  height: 20px;
+  color: blue;
+  border: 2px solid slateblue;
+  border-radius: 4px;
+}
+body .container .cards .card .card-data .bottom span {
+  margin: 0.5rem;
+}
+body .container .cards .card .card-data .bottom .end span {
+  opacity: 0.7;
+}/*# sourceMappingURL=main.css.map */
